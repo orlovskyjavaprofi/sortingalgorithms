@@ -14,7 +14,6 @@ public class QuickSort
 	public Integer findx(Integer inputLeftIndex, Integer RightIndex)
 	{
 		Integer LeftIndex = inputLeftIndex + 1;
-		Integer temp = 0;
 		Integer[] inputArray = this.getArr();
 
 		while (LeftIndex.intValue() <= RightIndex.intValue()
@@ -32,7 +31,7 @@ public class QuickSort
 			return LeftIndex;
 		} else
 		{
-			temp = LeftIndex - 1;
+			
 			// System.out.println("Neues maximum: " + temp);
 			return LeftIndex - 1;
 		}
