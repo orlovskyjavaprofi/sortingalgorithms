@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.tests.QuickSortTest" time="0.088" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.tests.QuickSortTest" time="0.085" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\JAVA\jdk8-131\jre\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="L:\ProgrammingStuff\JAVA\Eclipse-Projects3\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf886647573531241567.tmp"/>
+    <property name="classworlds.conf" value="L:\ProgrammingStuff\JAVA\Eclipse-Projects3\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf776811339603720437.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\JAVA\jdk8-131\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;c:/JAVA/jdk8-131/bin/../jre/bin/server;c:/JAVA/jdk8-131/bin/../jre/bin;c:/JAVA/jdk8-131/bin/../jre/lib/amd64;C:\DATABASES\ORACLE11G2\app\oracle\product\11.2.0\server\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;c:\JAVA\jdk8-131\bin;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files (x86)\Git\cmd;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files\Calibre2\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;c:\JAVA-BUILD-TOOLS\Maven\bin;C:\Program Files\Notepad++\;C:\SOFT\CURL\curl_7_53_1_openssl_nghttp2_x64\;C:\JAVA-BUILD-TOOLS\ANT\bin;C:\SOFT\explorer++_1.3.5_x64\\;C:\Program Files (x86)\Nmap;C:\JAVA-IDE\eclipse\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -60,10 +60,10 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="checkQuickSort" classname="com.tests.QuickSortTest" time="0.014"/>
-  <testcase name="checkfindX" classname="com.tests.QuickSortTest" time="0.002"/>
-  <testcase name="checkPartition" classname="com.tests.QuickSortTest" time="0.003"/>
+  <testcase name="checkQuickSort" classname="com.tests.QuickSortTest" time="0.017"/>
+  <testcase name="checkfindX" classname="com.tests.QuickSortTest" time="0"/>
+  <testcase name="checkPartition" classname="com.tests.QuickSortTest" time="0.002"/>
   <testcase name="checkswap" classname="com.tests.QuickSortTest" time="0"/>
-  <testcase name="checkIfQuickSortObjectExist" classname="com.tests.QuickSortTest" time="0.001"/>
-  <testcase name="checkIfObjectInitialised" classname="com.tests.QuickSortTest" time="0"/>
+  <testcase name="checkIfQuickSortObjectExist" classname="com.tests.QuickSortTest" time="0.002"/>
+  <testcase name="checkIfObjectInitialised" classname="com.tests.QuickSortTest" time="0.001"/>
 </testsuite>
